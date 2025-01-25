@@ -115,7 +115,7 @@ const CardSimples: React.FC = () => {
                 </ul>
                 <img
                     className="w-full h-60 object-contain rounded-md my-4"
-                    src="src/assets/offer-cards/moodboard.svg"
+                    src="images/offer-cards/moodboard.svg"
                     alt="Card Image"
                 />
                 <span className="text-xs text-CINZA_NUANCE_2">Exemplo de moodboard</span>

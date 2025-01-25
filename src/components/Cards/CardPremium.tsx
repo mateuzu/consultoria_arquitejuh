@@ -119,7 +119,7 @@ const CardSimples: React.FC = () => {
                 </ul>
                 <img
                     className="w-full h-60 object-cover rounded-md my-4"
-                    src="src/assets/offer-cards/3d_exemplo.svg"
+                    src="images/offer-cards/3d_exemplo.svg"
                     alt="Card Image"
                 />
                 <span className="text-xs text-CINZA_NUANCE_2">Exemplo de 3D</span>

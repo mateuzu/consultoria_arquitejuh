@@ -32,10 +32,10 @@ const HowWorks: React.FC = () => {
     ];
 
     const images: Image[] = [
-        { src: "src/assets/how-works/renovacao.png", alt: "Conceito da Renovação" },
-        { src: "src/assets/how-works/disposicao.jpg", alt: "Disposição dos Móveis e Objetos" },
-        { src: "src/assets/how-works/lista_compras.jpg", alt: "Indicação de Lojas Online" },
-        { src: "src/assets/how-works/3d.png", alt: "Imagens 3D" },
+        { src: "images/how-works/renovacao.png", alt: "Conceito da Renovação" },
+        { src: "images/how-works/disposicao.jpg", alt: "Disposição dos Móveis e Objetos" },
+        { src: "images/how-works/lista_compras.jpg", alt: "Indicação de Lojas Online" },
+        { src: "images/how-works/3d.png", alt: "Imagens 3D" },
     ];
 
     return (

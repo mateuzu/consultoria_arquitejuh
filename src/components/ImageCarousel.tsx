@@ -6,13 +6,13 @@ interface Avaliacao {
 
 const ImageCarousel: React.FC = () => {
     const avaliacoes: Avaliacao[] = [
-        { foto: "src/assets/about/projeto-1.svg" },
-        { foto: "src/assets/about/projeto-2.svg" },
-        { foto: "src/assets/about/projeto-3.svg" },
-        { foto: "src/assets/about/projeto-4.svg" },
-        { foto: "src/assets/about/projeto-5.svg" },
-        { foto: "src/assets/about/projeto-6.svg" },
-        { foto: "src/assets/about/projeto-7.svg" },
+        { foto: "images/about/projeto-1.svg" },
+        { foto: "images/about/projeto-2.svg" },
+        { foto: "images/about/projeto-3.svg" },
+        { foto: "images/about/projeto-4.svg" },
+        { foto: "images/about/projeto-5.svg" },
+        { foto: "images/about/projeto-6.svg" },
+        { foto: "images/about/projeto-7.svg" },
     ];
 
     const [indexAtual, setIndexAtual] = useState(0);

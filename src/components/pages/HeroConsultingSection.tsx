@@ -34,7 +34,7 @@ const HeroConsultingSection: React.FC = () => {
                     <div className="w-full md:w-1/2 flex flex-col md:flex-row items-center justify-start md:ml-4">
                         <div className="relative h-24 w-24 rounded-full overflow-hidden">
                             <img
-                                src="src/assets/hero-consulting/perfil.svg"
+                                src="images/hero-consulting/perfil.svg"
                                 alt="Minha Imagem"
                                 className="object-cover h-full w-full"
                             />
@@ -71,7 +71,7 @@ const HeroConsultingSection: React.FC = () => {
                 {/* imagem centro - logo*/}
                 <div className="mt-2 md:mt-8 flex flex-col items-center">
                             <div className="w-80 md:w-96 h-56 rounded-3xl overflow-hidden">
-                                <img src="src/assets/hero/logo.png" className="" alt="Logo" />
+                                <img src="images/hero/logo.png" className="" alt="Logo" />
                             </div>
                             <p className="mt-2 text-sm text-gray-500">
                             </p>

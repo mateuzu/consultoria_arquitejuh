@@ -115,7 +115,7 @@ const CardSimples: React.FC = () => {
                 </ul>
                 <img
                     className="w-full h-60 object-cover rounded-md my-4"
-                    src="src/assets/offer-cards/planta.svg"
+                    src="images/offer-cards/planta.svg"
                     alt="Card Image"
                 />
                 <span className="text-xs text-CINZA_NUANCE_2">Exemplo de planta</span>
