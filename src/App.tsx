@@ -6,14 +6,14 @@ import FAQ from "./components/pages/FAQ";
 import Footer from "./components/pages/Footer";
 import Offer from "./components/pages/OfferSection";
 import About from "./components/pages/About";
-import IdealForSection from "./components/pages/IdealForSection";
+import ConsultoriaSection from "./components/pages/ConsultoriaSection";
 
 const App: React.FC = () => {
   return (
     <div className="bg-CINZA">
       <HeroConsultingSection />
       <About />
-      <IdealForSection />
+      <ConsultoriaSection />
       <Offer />
       <HowWorks />
       <FAQ />

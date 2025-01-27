@@ -1,5 +1,5 @@
 import React from "react";
-import ImageCarousel from "../ImageCarousel";
+import ProjetcsCarousel from "../Carousel/ProjetcsCarousel";
 
 const About: React.FC = () => {
     return (
@@ -14,7 +14,7 @@ const About: React.FC = () => {
 
                     <h2 className="font-semibold flex items-center justify-center gap-3 md:text-left md:justify-start ">
                         <div className="hidden md:block h-1 w-12 rounded-full bg-AZUL_NUANCE_2" />
-                        Arquiteta & Projetista
+                        Arquitetura & Urbanismo
                     </h2>
 
                     <div className=''>
@@ -43,7 +43,7 @@ const About: React.FC = () => {
                 <div className='basis-7/12 md:ml-10 md:p-2 md:block'>
                     <div className="flex flex-col items-center ">
                     <span className="text-2xl md:text-3xl mt-5 md:mt-0 font-thin font-handwriting  mb-2">Um pouco do meu trabalho!</span>
-                    <ImageCarousel />
+                    <ProjetcsCarousel />
                     </div>
                 </div>
             </div>

@@ -8,12 +8,12 @@ const HeroConsultingSection: React.FC = () => {
         <div className="container mx-auto flex items-center justify-center overflow-hidden">
             {/* Fundo borrado */}
             <div
-                className="absolute inset-0 bg-cover bg-center"
+                className="absolute inset-0 md:bg-cover bg-center"
                 style={{
-                    backgroundImage: "url('https://res.cloudinary.com/dnttxkyym/image/upload/v1737827584/arquitejuh-site/arquitejuh_fundo.jpg')", // Substitua pelo caminho da sua imagem
+                    backgroundImage: "url('https://res.cloudinary.com/dnttxkyym/image/upload/v1737993536/arquitejuh-site/arqiutejuh-fundo-mockup.png')", // Substitua pelo caminho da sua imagem
                     backgroundSize: "center",
                     backgroundPosition: "center",
-                    filter: "blur(7px)"
+                    filter: "blur(6px)"
                 }}
             ></div>
 
@@ -49,21 +49,21 @@ const HeroConsultingSection: React.FC = () => {
                 <ul className="flex flex-nowrap items-center justify-center p-2 md:mt-6 text-sm font-bold text-AZUL_NUANCE_3 sm:mt-0">
                     <li>
                         <a href="https://www.instagram.com/arquitejuh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" className="text-ROXO_NUANCE_1 hover:underline me-4 md:me-6 flex flex-col md:flex-row items-center">
-                            <FaInstagram className="inline-block mr-2 text-xl" />
+                            <FaInstagram className="inline-block md:mr-2 text-xl" />
                                 Instagram
                         </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/juliana-costa-8a1044170/" target="_blank" className="hover:underline me-4 md:me-6 flex flex-col md:flex-row items-center">
-                                <FaLinkedin className="inline-block mr-2 text-xl" />
+                                <FaLinkedin className="inline-block md:mr-2 text-xl" />
                                     Linkedin
                             </a>
                         </li>
                         <li>
                             <a
                                 href="mailto:ozjuliana@hotmail.com?subject=Consultoria&body=Olá,%20estou%20interessado%20em%20uma%20consultoria,%20podemos%20conversar?"
-                                className="hover:underline me-4 md:me-6 text-red-500 flex flex-col md:flex-row items-center">
-                                <BiLogoGmail className="inline-block mr-2 text-xl" />
+                                className="hover:underline me-4 md:me-6  text-red-500 flex flex-col md:flex-row items-center">
+                                <BiLogoGmail className="inline-block md:mr-2 text-xl" />
                                     Gmail
                             </a>
                         </li>

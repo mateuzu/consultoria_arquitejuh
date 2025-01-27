@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardSimples: React.FC = () => {
+const CardAvancado: React.FC = () => {
     return (
         <div
             className={`w-full max-w-xs md:max-w-sm  rounded-3xl shadow-md shadow-gray-600 overflow-hidden flex flex-col justify-between`}
@@ -129,4 +129,4 @@ const CardSimples: React.FC = () => {
     );
 };
 
-export default CardSimples;
+export default CardAvancado;

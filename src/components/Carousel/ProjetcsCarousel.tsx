@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-interface Avaliacao {
+interface Projetcs {
     foto: string;
 }
 
-const ImageCarousel: React.FC = () => {
-    const avaliacoes: Avaliacao[] = [
+const ProjetcsCarousel: React.FC = () => {
+    const avaliacoes: Projetcs[] = [
         { foto: "images/about/projeto-1.svg" },
         { foto: "images/about/projeto-2.svg" },
         { foto: "images/about/projeto-3.svg" },
@@ -13,6 +13,11 @@ const ImageCarousel: React.FC = () => {
         { foto: "images/about/projeto-5.svg" },
         { foto: "images/about/projeto-6.svg" },
         { foto: "images/about/projeto-7.svg" },
+        { foto: "images/about/projeto-8.svg" },
+        { foto: "images/about/projeto-9.svg" },
+        { foto: "images/about/projeto-10.svg" },
+        { foto: "images/about/projeto-11.svg" },
+        { foto: "images/about/projeto-12.svg" }
     ];
 
     const [indexAtual, setIndexAtual] = useState(0);
@@ -84,4 +89,4 @@ const ImageCarousel: React.FC = () => {
     );
 };
 
-export default ImageCarousel;
+export default ProjetcsCarousel;

@@ -100,9 +100,6 @@ const HowWorks: React.FC = () => {
                                 <p className="text-lg mt-4 md:text-left">
                                     Tudo o que foi realizado na consultoria será disponibilizado em PDF através de seu Whatsapp/Email!
                                 </p>
-                                <p className="text-base mt-5 font-semibold text-center md:text-left">
-                                    Você vai receber um guia completo com:
-                                </p>
                             </div>
 
                             {/* divisao */}
@@ -119,7 +116,7 @@ const HowWorks: React.FC = () => {
                                             <img
                                                 src={image.src}
                                                 alt={image.alt}
-                                                className="w-full h-48 rounded-md shadow-sm"
+                                                className="w-full h-48 rounded-lg object-fill shadow-sm"
                                             />
                                             <p className="text-sm text-center">{image.alt}</p>
                                         </div>
